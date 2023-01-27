@@ -1,6 +1,6 @@
 {
   "name": "@aptuitiv/use-simple-reducer",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A reducer to handle async actions",
   "main": "./dist/use-simple-reducer.umd.js",
   "module": "./dist/use-simple-reducer.es.js",
