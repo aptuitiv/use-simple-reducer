@@ -1,5 +1,5 @@
 {
-  "name": "@bitovi/use-simple-reducer",
+  "name": "@aptuitiv/use-simple-reducer",
   "version": "0.0.4",
   "description": "A reducer to handle async actions",
   "main": "./dist/use-simple-reducer.umd.js",
@@ -16,15 +16,14 @@
     "src/",
     "!src/**/*.test.ts"
   ],
-  "author": "Bitovi",
-  "homepage": "https://www.bitovi.com/frontend-javascript-consulting/react-consulting",
+  "author": "Bitovi and Aptuitiv",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitovi/use-simple-reducer.git"
+    "url": "git+https://github.com/aptuitiv/use-simple-reducer.git"
   },
   "bugs": {
-    "url": "https://github.com/bitovi/use-simple-reducer/issues"
+    "url": "https://github.com/aptuitiv/use-simple-reducer/issues"
   },
   "scripts": {
     "test": "jest --config jestconfig.json",
@@ -52,8 +51,8 @@
     "vite": "^3.0.3"
   },
   "peerDependencies": {
-    "@types/react": "^16.0.0",
-    "react": "^16.3.0"
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0"
   },
   "eslintConfig": {
     "root": true,
