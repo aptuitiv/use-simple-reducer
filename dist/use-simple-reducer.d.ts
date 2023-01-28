@@ -5,7 +5,7 @@ declare type FunctionPromiseReturnType<T> = T extends {
 interface BaseActions<RetType> {
     [key: string]: (...args: any[]) => RetType;
 }
-declare type FunctionForFirstParamType<ParamType> = (arg0: ParamType) => void;
+declare type FunctionForFirstParamType<ParamType> = (arg0?: ParamType) => void;
 declare type FunctionForInitialStateType<StateType> = StateType extends PromiseLike<infer IS> ? IS | null : StateType;
 declare type Nullable<T> = T | null;
 interface ActionAndArgs {

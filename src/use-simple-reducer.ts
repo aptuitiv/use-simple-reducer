@@ -10,7 +10,7 @@ interface BaseActions<RetType> {
   [key: string]: (...args: any[]) => RetType
 }
 // Given a parameter type, makes a first argument with that type
-type FunctionForFirstParamType<ParamType> = (arg0: ParamType) => void
+type FunctionForFirstParamType<ParamType> = (arg0?: ParamType) => void
 // Give an initial state, if it is a promise it will return the non error return type of it. Otherwise, it returns the initial state
 type FunctionForInitialStateType<StateType> = StateType extends PromiseLike<infer IS> ? IS | null : StateType
 // A user-defined type guard to check whether the initialState is a Promise
